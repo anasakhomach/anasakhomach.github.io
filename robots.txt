@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://anasakhomach.github.io/al-folio/sitemap.xml
+Sitemap: https://anasakhomach.github.io/sitemap.xml
