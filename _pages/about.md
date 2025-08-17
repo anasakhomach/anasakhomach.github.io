@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p> 65428 </p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Rüsselsheim, Frankfurt am Main</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Your data is screaming at you – but are you listening? I am.
+I'm the person who gets genuinely excited when I spot an outlier that everyone else wants to delete. While others see messy datasets, I see treasure hunts waiting to be solved. I'm that data detective who won't sleep until I've figured out why your conversion rates dropped 12% last Tuesday (spoiler: it wasn't the weather).
+Here's what I do with your data chaos:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Clean & validate like I'm Marie Kondo, but for databases – if it doesn't spark insights, it gets optimized
+Visualize stories that make your stakeholders go "wait, show me that chart again"
+Build predictive models that are scary accurate (in a good way)
+Hunt down insights hiding in the dark corners of your spreadsheets
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I may not have a decade of corporate experience, but I have something better: genuine curiosity and the kind of obsessive attention to detail that makes me notice patterns others miss. I've spent countless hours wrestling with datasets just because I had to know what they were trying to tell me.
+Warning: I might get a little too excited explaining why your data trends the way it does.
+Ready to stop guessing and start knowing?
+
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, [LinkedIn](https://www.linkedin.com/in/anas-akhomach/), Google Scholar, or just disable all of them.
