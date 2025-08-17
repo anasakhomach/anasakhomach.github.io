@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-my-first-steps-in-building-a-data-analyst-portfolio",
+        
+          title: "My First Steps in Building a Data Analyst Portfolio",
+        
+        description: "A look into the tools, configurations, and the value of creating a personal portfolio for a data analyst.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/building-my-data-analyst-portfolio/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
