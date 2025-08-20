@@ -1,3 +1,4 @@
+{% comment %}
 <div class="list-groups">
   {% assign certificates = data[1] | sort: 'date' | reverse %}
   {% for content in certificates %}
@@ -33,3 +34,64 @@
     </div>
   {% endfor %}
 </div>
+{% endcomment %}
+
+
+{% comment %}
+{%- for certificate in data[1] -%}
+<div class="card mt-3">
+  <div class="card-body">
+    <h5 class="card-title">
+      {%- if certificate.icon -%}<i class="{{ certificate.icon }} cv-icon"></i>&nbsp;{%- endif -%}
+      {{ certificate.name }}
+    </h5>
+    <p class="card-text">
+      <span class="meta">{{ certificate.issuer }}</span>
+      <span class="meta date">{{ certificate.date | date: '%Y-%m' }}</span>
+    </p>
+    {%- if certificate.url -%}
+    <a href="{{ certificate.url }}" target="_blank" rel="noopener noreferrer" class="btncv">Verify</a>
+    {%- endif -%}
+  </div>
+</div>
+{%- endfor -%}
+{% endcomment %}
+
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign certificates = data[1] | sort: 'date' | reverse %}
+  {% for content in certificates %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  {% if content.date %}
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ content.date | date: '%b %Y' }}
+                    </span>
+                  {% endif %}
+                </td>
+              </tr>
+              {% if content.url and content.url != '' %}
+              <tr>
+                <td>
+                  <a href="{{ content.url }}" target="_blank" rel="noopener noreferrer" class="btncv">Verify</a>
+                </td>
+              </tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            <a href="{{ content.url | default: '#' }}" target="_blank" rel="noopener noreferrer">{{ content.name }}</a>
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ content.issuer }}</h6>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

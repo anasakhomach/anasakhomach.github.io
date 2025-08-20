@@ -218,3 +218,11 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*
+ * Force certificate cards into a single-column list.
+ * This is a high-specificity override using !important to ensure it works.
+ */
+div.cv div.card > h3#certificates + div > .card-columns {
+  column-count: 1 !important;
+}
