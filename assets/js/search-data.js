@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-portfolio-day-2-the-debugging-chronicles",
+        },{id: "post-portfolio-day-3-the-devil-is-in-the-details",
+        
+          title: "Portfolio, Day 3: The Devil is in the Details",
+        
+        description: "The final 10% of any project is what separates the amateur from the professional. A deep dive into the obsessive pursuit of consistency.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/portfolio-day-three-the-last-mile/";
+          
+        },
+      },{id: "post-portfolio-day-2-the-debugging-chronicles",
         
           title: "Portfolio, Day 2: The Debugging Chronicles",
         
