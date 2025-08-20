@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-my-first-steps-in-building-a-data-analyst-portfolio",
+        },{id: "post-portfolio-day-2-the-debugging-chronicles",
+        
+          title: "Portfolio, Day 2: The Debugging Chronicles",
+        
+        description: "Sometimes the most valuable data is in the error logs. A recap of Day 2, where strategy met a series of stubborn bugs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/portfolio-day-two-the-debugging-chronicles/";
+          
+        },
+      },{id: "post-my-first-steps-in-building-a-data-analyst-portfolio",
         
           title: "My First Steps in Building a Data Analyst Portfolio",
         
