@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Day Four: Creating a Project Amidst Chaos"
-date: 2025-08-21 22:00:00
+date: 2025-08-21 20:00:00
 description: "With the website's build process completely stuck, we pivoted to building out the first real project page, facing new challenges with Power BI along the way."
 tags: portfolio-building github-pages jekyll power-bi troubleshooting
-categories: professional-development
+categories: career-development
 ---
 
 Today was supposed to be the day. The day I finally saw the portfolio live and working. Instead, it was a masterclass in frustration, courtesy of a complete outage on GitHub Actions. The build process for my site has been stuck in a "Queued" state for hours, a problem completely out of my hands. After trying to cancel and re-run the job to no avail, it became clear that no amount of troubleshooting on my end would fix it.
