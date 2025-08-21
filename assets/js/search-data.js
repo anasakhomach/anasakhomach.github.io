@@ -454,6 +454,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-08-18-portfolio-launch/";
+            },},{id: "projects-my-new-project",
+          title: 'My New Project',
+          description: "A test project to get things working.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
