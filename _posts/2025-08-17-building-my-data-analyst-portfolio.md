@@ -6,7 +6,6 @@ description: "A look into the tools, configurations, and the value of creating a
 tags: portfolio data-analysis jekyll
 categories: career-development
 images:
-images:
   compare: true
   slider: true
 ---
