@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-portfolio-day-3-the-devil-is-in-the-details",
+        },{id: "post-day-four-creating-a-project-amidst-chaos",
+        
+          title: "Day Four: Creating a Project Amidst Chaos",
+        
+        description: "With the website&#39;s build process completely stuck, we pivoted to building out the first real project page, facing new challenges with Power BI along the way.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/creating-the-first-project-page/";
+          
+        },
+      },{id: "post-portfolio-day-3-the-devil-is-in-the-details",
         
           title: "Portfolio, Day 3: The Devil is in the Details",
         
