@@ -1,33 +1,38 @@
 ---
 layout: post
-title: "Day Four: Creating a Project Amidst Chaos"
-date: 2025-08-21 22:00:00
-description: With the website's build process completely stuck, we pivoted to building out the first real project page, facing new challenges with Power BI along the way.
-tags: portfolio-building github-pages jekyll power-bi troubleshooting
-categories: professional-development
+title: "Portfolio, Day 2: The Debugging Chronicles"
+date: 2025-08-18 20:00:00 # A time in the past
+description: "Sometimes the most valuable data is in the error logs. A recap of Day 2, where strategy met a series of stubborn bugs."
+tags: portfolio-build debugging jekyll liquid
+categories: technical-deep-dive
 ---
 
-Today was supposed to be the day. The day I finally saw the portfolio live and working. Instead, it was a masterclass in frustration, courtesy of a complete outage on GitHub Actions. The build process for my site has been stuck in a "Queued" state for hours, a problem completely out of my hands. After trying to cancel and re-run the job to no avail, it became clear that no amount of troubleshooting on my end would fix it.
+### The Strategy: Ruthless Optimization
 
----
-### Pivoting to Content
+Day one was about laying the foundation. Day two? It was about sharpening the blade. I looked at my homepage not as a biography, but as the opening argument in a case to a very busy jury: potential employers.
 
-Instead of waiting, we decided to shift focus to what I could actually control: the content. It was the perfect time to build out the first real project page for my portfolio—a showcase for a Power BI sales report I created for the AdventureWorks company.
+The verdict was swift. The "News" and "Publications" sections were circumstantial evidence at best—distractions. In their place, I needed to present Exhibit A, my proof of work. I decided to surgically remove the noise and engineer a new section front and center: **"Featured Projects."** This wasn't just a design choice; it was a strategic decision to control the narrative and immediately answer the only question that matters: "Can you do the job?"
 
----
-### Building the Project Page
+### The Crime Scene: The Case of the Empty Section
 
-We started by creating a new file, `10_project.md`, in the `_projects` folder. The initial idea was just a simple page, but we quickly decided to make it more dynamic. A single static screenshot felt flat.
+I coded the new section. I configured it. I deployed it. And... nothing. An empty space where my proudest work should have been. This is where a data detective's real work begins. The system wasn't throwing errors; it was giving me the silent treatment. The most frustrating kind of bug.
 
-The solution was to implement an interactive image swiper. We replaced the standard image code with a carousel that cycles through three different screenshots of the dashboard: `r1.jpg`, `r2.jpg`, and `r3.jpg`. This immediately made the page feel more engaging and allowed me to show off different aspects of the report at a glance.
+My investigation led me down a rabbit hole of dead-end hypotheses:
 
----
-### The Power BI Embedding Challenge
+1.  **The Wrong Sorting Key:** My first assumption was a simple logic error. I was trying to sort projects by `date`, but the theme was hardcoded to use a number called `importance`. A quick change, a redeploy, and... still nothing.
 
-The next major task was embedding the interactive Power BI report. I had the `iframe` code ready to go, but we ran into a critical issue: the standard embed link requires the viewer to sign in to a Power BI account. This is a non-starter for a portfolio. A recruiter isn't going to sign in to view my work.
+2.  **The Data Type Mismatch:** I dug deeper into the code. The sorting logic was looking for projects where `importance` was equal to the *text* `"1"`, but my project files correctly defined it as the *number* `1`. To a computer, that's like comparing a photograph of a key to the key itself. They are not the same. I corrected the data type. I redeployed. Still nothing.
 
-The correct method is to use the "Publish to web (public)" feature, which creates a link that anyone can view. But, of course, that option was missing from my Power BI account. After digging into the settings, it became clear that the feature was disabled by an administrator policy, another roadblock.
+### The Breakthrough: Finding the Real Culprit
 
-With a true public embed off the table, we had to pivot again. A broken or inaccessible `iframe` is worse than no embed at all. We scrapped the `iframe` entirely and replaced it with a simple, clean text link that says "here." It's an honest solution that directs visitors to the report without the friction of a failed embed.
+At this point, I knew I wasn't just fixing a typo. I was hunting a fundamental flaw in the system's logic. The final breakthrough came when I realized the theme was using two entirely different visual blueprints for projects: a vertical card for the main projects page, and a horizontal one for the homepage.
 
-So, while the site itself remains in limbo, a major piece of it is now fully built and ready. We turned a day of technical delays into a productive session that resulted in a much better, more thoughtful project page.
+The sorting file I was fixing was correctly gathering the data, but it was handing that data off to the wrong blueprint. It was like a perfectly executed police raid on the wrong address.
+
+With the true culprit identified, the fix was decisive. I rewrote the sorting logic from the ground up to be more robust and, critically, to use the correct **horizontal card blueprint**. I redeployed.
+
+Success.
+
+### What This Teaches a Data Analyst
+
+This entire ordeal—the strategic pivot, the frustrating bugs, the forensic deep-dive into the code—is a perfect metaphor for the daily life of a data analyst. You start with a clear goal, you hit a wall of confusing or missing data, and you must apply logic, discipline, and relentless curiosity to find the truth. The answer is never on the surface. You have to be willing to get your hands dirty in the source code of the problem.

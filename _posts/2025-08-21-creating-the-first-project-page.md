@@ -1,22 +1,33 @@
 ---
 layout: post
-title: "Day Four: Building Through the Gridlock"
-date: 2025-08-21 21:30:00
-description: Despite a frustrating platform outage, we made huge strides in building out the first real project page for my portfolio.
+title: "Day Four: Creating a Project Amidst Chaos"
+date: 2025-08-21 22:00:00
+description: "With the website's build process completely stuck, we pivoted to building out the first real project page, facing new challenges with Power BI along the way."
 tags: portfolio-building github-pages jekyll power-bi troubleshooting
 categories: professional-development
 ---
 
-Sometimes, the biggest challenges have nothing to do with your own code. That was the story of today. As I write this, my portfolio's build process is still stuck in a queue, a victim of a wider GitHub Actions outage. It's been a lesson in patience and a reminder that some things are just out of your control.
+Today was supposed to be the day. The day I finally saw the portfolio live and working. Instead, it was a masterclass in frustration, courtesy of a complete outage on GitHub Actions. The build process for my site has been stuck in a "Queued" state for hours, a problem completely out of my hands. After trying to cancel and re-run the job to no avail, it became clear that no amount of troubleshooting on my end would fix it.
 
-But that doesn't mean the day was lost. Far from it.
+---
+### Pivoting to Content
 
-While the site itself was in gridlock, we got to work on the most important part: the content. We decided to build out the first real project page, a showcase for an AdventureWorks sales dashboard I created in Power BI.
+Instead of waiting, we decided to shift focus to what I could actually control: the content. It was the perfect time to build out the first real project page for my portfolio—a showcase for a Power BI sales report I created for the AdventureWorks company.
 
-This is where things got exciting. We started by creating the new project file, but a simple static image felt... well, static. The solution? An interactive image swiper. We dove into the theme's code and wired up a beautiful carousel to show off three different views of the report. It immediately felt more dynamic and professional.
+---
+### Building the Project Page
 
-Then came the next hurdle: embedding the Power BI report itself. The goal was to have a live, interactive dashboard right on the page. We quickly discovered that the standard embedding option required a Power BI login—a huge barrier for any recruiter or hiring manager. The ideal solution, "Publish to web," was unfortunately disabled by admin settings.
+We started by creating a new file, `10_project.md`, in the `_projects` folder. The initial idea was just a simple page, but we quickly decided to make it more dynamic. A single static screenshot felt flat.
 
-It was a classic real-world problem. You have a plan, but the tools or permissions don't quite line up. So, we pivoted. Instead of a broken embed, we opted for a clean, simple text link that says "here." It's an elegant solution that keeps the page looking clean and sets clear expectations for the user.
+The solution was to implement an interactive image swiper. We replaced the standard image code with a carousel that cycles through three different screenshots of the dashboard: `r1.jpg`, `r2.jpg`, and `r3.jpg`. This immediately made the page feel more engaging and allowed me to show off different aspects of the report at a glance.
 
-So, even though I can't see the final result live on my site just yet, the pieces are all in place. We have a fully-featured project page with an image slider and a smart solution for linking to the live report. Today was about building through the roadblocks, and I'm ending the day with a much stronger portfolio ready to go live the moment the digital traffic jam clears.
+---
+### The Power BI Embedding Challenge
+
+The next major task was embedding the interactive Power BI report. I had the `iframe` code ready to go, but we ran into a critical issue: the standard embed link requires the viewer to sign in to a Power BI account. This is a non-starter for a portfolio. A recruiter isn't going to sign in to view my work.
+
+The correct method is to use the "Publish to web (public)" feature, which creates a link that anyone can view. But, of course, that option was missing from my Power BI account. After digging into the settings, it became clear that the feature was disabled by an administrator policy, another roadblock.
+
+With a true public embed off the table, we had to pivot again. A broken or inaccessible `iframe` is worse than no embed at all. We scrapped the `iframe` entirely and replaced it with a simple, clean text link that says "here." It's an honest solution that directs visitors to the report without the friction of a failed embed.
+
+So, while the site itself remains in limbo, a major piece of it is now fully built and ready. We turned a day of technical delays into a productive session that resulted in a much better, more thoughtful project page.
