@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-day-four-creating-a-project-amidst-chaos",
+        },{id: "post-the-maven-market-case-a-deep-dive-into-the-bi-workflow",
+        
+          title: "The Maven Market Case: A Deep Dive into the BI Workflow",
+        
+        description: "Deconstructing a full business intelligence project, from messy CSVs to a dynamic dashboard that uncovered the real story behind the sales data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/portfolio-day-five-the-maven-market-case/";
+          
+        },
+      },{id: "post-day-four-creating-a-project-amidst-chaos",
         
           title: "Day Four: Creating a Project Amidst Chaos",
         
