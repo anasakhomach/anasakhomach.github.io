@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My New Project
-description: A test project to get things working.
+title: Adventure Wroks Sales Analysis
+description: Adventure Wroks Sales Analysis this is the GOAT for PowerBI learner offered in PL-300 Microsoft prepearion, and this is my take folloing the steps of one of the best courses EVER! cheers Chris.
 img: /assets/img/r1.jpg
 importance: 10
 category: fun
@@ -20,7 +20,7 @@ images:
 </swiper-container>
 ---
 <div class="caption">
-    This is a test image for my new project.
+    Screenshots from the Maven Market Power BI project, from data shaping to the final dashboard
 </div>
 
 
