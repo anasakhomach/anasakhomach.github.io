@@ -124,11 +124,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-08-18-portfolio-launch/";
-            },},{id: "projects-my-new-project",
-          title: 'My New Project',
-          description: "A test project to get things working.",
+            },},{id: "projects-adventure-wroks-sales-analysis",
+          title: 'Adventure Wroks Sales Analysis',
+          description: "Adventure Wroks Sales Analysis this is the GOAT for PowerBI learner offered in PL-300 Microsoft prepearion, and this is my take folloing the steps of one of the best courses EVER! cheers Chris.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-maven-market-sales-analysis",
+          title: 'Maven Market Sales Analysis',
+          description: "An interactive Power BI dashboard analyzing sales trends for a multi-national grocery chain.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{
         id: 'social-email',
         title: 'email',
