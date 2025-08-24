@@ -1,28 +1,25 @@
 ---
 layout: page
-title: Maven Fuzzy Factory - A Growth Marketing Deep Dive
+title: Maven Fuzzy Factory - A Growth Marketing Story
 description: A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.
-img: /assets/img/fuzzy_factory_report/output_5_0.png
+img: /assets/img/pr8.png
 importance: 12
-category: work
+category: fun
 date: 2025-08-24
 toc:
   beginning: true
 images:
   compare: true
   slider: true
+tags: formatting jupyter
+
 ---
-```yml
-toc:
-  beginning: true
-```
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr7.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr8.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr9.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr10.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
     <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr11.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-    <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr12.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
 ---
 
@@ -34,29 +31,9 @@ This report details a comprehensive analysis of Maven Fuzzy Factory, a growing e
 
 The primary goal of this project was to dissect the company's historical data to identify key drivers of growth, diagnose performance issues, and provide strategic recommendations. This report is a testament to how a data-driven approach can transform a business, turning insights into actionable strategies that yield significant results.
 
-<hr>
-
-### The Complete Analysis Notebook
-
-For a technical deep-dive, the full Jupyter Notebook containing all the SQL queries, Python code, and visualizations is embedded below.
-
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/fuzzy_factory_report.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/fuzzy_factory_report.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-{% jupyter_notebook jupyter_path %}
-{% else %}
-
-<p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
-
-<hr>
-
 ### Table of Contents
 
 - [](#)
-  - [The Complete Analysis Notebook](#the-complete-analysis-notebook)
   - [Table of Contents](#table-of-contents)
   - [1. Initial Traffic Analysis](#1-initial-traffic-analysis)
   - [2. Understanding Business Patterns \& Seasonality](#2-understanding-business-patterns--seasonality)
@@ -69,6 +46,7 @@ For a technical deep-dive, the full Jupyter Notebook containing all the SQL quer
   - [9. Comprehensive Sales \& Product Analytics](#9-comprehensive-sales--product-analytics)
   - [10. Final Business Recap \& Strategic Recommendations](#10-final-business-recap--strategic-recommendations)
   - [11. Conclusion](#11-conclusion)
+  - [12. The Complete Analysis Notebook](#12-the-complete-analysis-notebook)
 
 ---
 
@@ -198,3 +176,23 @@ The final recap synthesized all the analyses to provide a holistic view of the b
 The journey of Maven Fuzzy Factory from 2012 to 2014 is a powerful case study in the impact of a data-driven growth strategy. By systematically identifying problems, forming hypotheses, testing solutions, and measuring results, the company transformed itself from a business with high potential but significant flaws into a world-class e-commerce performer.
 
 The initial state in 2012, with a 2.88% conversion rate and heavy reliance on a single traffic source, evolved into a multi-product powerhouse with a 9.24% conversion rate by 2014. This was not the result of a single "silver bullet," but rather the compound effect of continuous, methodical optimization across every aspect of the customer journey. This project demonstrates that with the right data and a culture of experimentation, any business can unlock its potential for exponential growth.
+
+
+<hr>
+
+### 12. The Complete Analysis Notebook
+
+For a technical deep-dive, the full Jupyter Notebook containing all the SQL queries, Python code, and visualizations is embedded below.
+
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter/fuzzy_factory_report.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/fuzzy_factory_report.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+{% jupyter_notebook jupyter_path %}
+{% else %}
+
+<p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
+
+<hr>
