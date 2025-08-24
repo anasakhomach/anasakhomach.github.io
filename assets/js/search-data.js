@@ -145,8 +145,8 @@ ninja.data = [{
           description: "An interactive Power BI dashboard analyzing sales trends for a multi-national grocery chain.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-maven-fuzzy-factory-a-growth-marketing-deep-dive",
-          title: 'Maven Fuzzy Factory - A Growth Marketing Deep Dive',
+            },},{id: "projects-maven-fuzzy-factory-a-growth-marketing-story",
+          title: 'Maven Fuzzy Factory - A Growth Marketing Story',
           description: "A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
