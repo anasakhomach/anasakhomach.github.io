@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-maven-market-case-a-deep-dive-into-the-bi-workflow",
+        },{id: "post-day-6-the-case-of-the-invisible-notebook",
+        
+          title: "Day 6: The Case of the Invisible Notebook",
+        
+        description: "A deep dive into the end-to-end analytical process, from raw data to a final report, and the hidden systems that tried to keep it offline.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-case-of-the-invisible-notebook/";
+          
+        },
+      },{id: "post-the-maven-market-case-a-deep-dive-into-the-bi-workflow",
         
           title: "The Maven Market Case: A Deep Dive into the BI Workflow",
         
