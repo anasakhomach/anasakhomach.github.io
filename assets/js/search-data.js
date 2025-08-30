@@ -37,7 +37,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-day-6-the-case-of-the-invisible-notebook",
+        },{id: "post-refactoring-the-data-model-the-living-document-pattern",
+        
+          title: "Refactoring the Data Model: The Living Document Pattern",
+        
+        description: "A technical analysis of the Phase 1 data model refactor, detailing the shift from fragmented output models to a centralized &#39;Living Document&#39; pattern to enable a cascading, context-aware AI workflow.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-living-document-a-shift-in-architectural-strategy/";
+          
+        },
+      },{id: "post-architecting-stability-integrating-langgraph-and-streamlit",
+        
+          title: "Architecting Stability: Integrating LangGraph and Streamlit",
+        
+        description: "A technical deep dive into solving the state management conflicts between LangGraph and Streamlit to build a robust, interactive multi-agent AI system.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-case-of-the-conflicting-states/";
+          
+        },
+      },{id: "post-the-application-workflow-an-end-to-end-breakdown",
+        
+          title: "The Application Workflow: An End-to-End Breakdown",
+        
+        description: "A detailed, step-by-step breakdown of the AI CV Generator&#39;s application flow, from initial user input to the final generated output, detailing the interaction between the UI, state management, and the agentic backend.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/following-the-trail-an-end-to-end-case-breakdown/";
+          
+        },
+      },{id: "post-the-smoking-gun-an-interactive-deep-dive",
+        
+          title: "The Smoking Gun: An Interactive Deep Dive",
+        
+        description: "Going beyond the initial investigation to find the real levers of growth. An interactive analysis using Plotly to uncover the story behind the numbers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-smoking-gun-interactive-deep-dive/";
+          
+        },
+      },{id: "post-day-6-the-case-of-the-invisible-notebook",
         
           title: "Day 6: The Case of the Invisible Notebook",
         
@@ -156,8 +200,8 @@ ninja.data = [{
           description: "An interactive Power BI dashboard analyzing sales trends for a multi-national grocery chain.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-maven-fuzzy-factory-a-growth-marketing-story",
-          title: 'Maven Fuzzy Factory - A Growth Marketing Story',
+            },},{id: "projects-a-growth-marketing-story",
+          title: 'A Growth Marketing Story',
           description: "A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
