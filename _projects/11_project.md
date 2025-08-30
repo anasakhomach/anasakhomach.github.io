@@ -15,7 +15,7 @@ images:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr3.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-    <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pr4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
 ---
 

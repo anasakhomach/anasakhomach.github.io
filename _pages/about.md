@@ -22,7 +22,7 @@ latest_posts:
 
 featured_projects:
   enabled: true
-  limit: 3 # Show the 3 most important projects.
+  limit: 5 # Show the 3 most important projects.
 ---
 
 Your data is screaming at you – but are you listening? I am.

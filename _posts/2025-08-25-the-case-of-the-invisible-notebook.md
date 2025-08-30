@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Day 6: The Case of the Invisible Notebook"
-date: 2025-08-25 00:07:00 +0100
+date: 2025-08-25 00:07:00 
 description: "A deep dive into the end-to-end analytical process, from raw data to a final report, and the hidden systems that tried to keep it offline."
 img: /assets/img/pr11.png
 tags: portfolio-build jekyll jupyter data-visualization python

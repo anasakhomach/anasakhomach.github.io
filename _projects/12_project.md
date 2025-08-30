@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maven Fuzzy Factory - A Growth Marketing Story
+title: A Growth Marketing Story
 description: A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.
 img: /assets/img/pr8.png
 importance: 12
