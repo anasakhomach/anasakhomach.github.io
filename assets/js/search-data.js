@@ -205,9 +205,9 @@ ninja.data = [{
           description: "A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-the-smoking-gun-quot-an-interactive-deep-dive-quot",
+          title: 'The Smoking Gun &amp;quot;An Interactive Deep Dive&amp;quot;',
+          description: "An interactive Streamlit application for a deep-dive analysis into Maven Fuzzy Factory&#39;s growth, uncovering the key drivers behind their success.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
             },},{
