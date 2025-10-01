@@ -192,7 +192,7 @@ ninja.data = [{
               window.location.href = "/news/2025-08-18-portfolio-launch/";
             },},{id: "projects-adventure-wroks-sales-analysis",
           title: 'Adventure Wroks Sales Analysis',
-          description: "Adventure Wroks Sales Analysis this is the GOAT for PowerBI learner offered in PL-300 Microsoft prepearion, and this is my take folloing the steps of one of the best courses EVER! cheers Chris.",
+          description: "A Power BI dashboard for the AdventureWorks dataset, built as part of the PL-300 Microsoft exam preparation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
             },},{id: "projects-maven-market-sales-analysis",
@@ -205,6 +205,11 @@ ninja.data = [{
           description: "A comprehensive analysis of a growing e-commerce business, from its early stages to a more mature state.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{
         id: 'social-email',
         title: 'email',
