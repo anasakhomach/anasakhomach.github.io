@@ -23,7 +23,7 @@ images:
     Screenshots from the Maven Market Power BI project, from data shaping to the final dashboard.
 </div>
 
-This project involved a complete business intelligence workflow using data from **Maven Market**, a multi-national grocery chain with locations in Canada, Mexico, and the United States. The goal was to transform raw transactional data into an actionable, interactive dashboard to monitor key performance metrics.
+This project was a full business intelligence workflow for **Maven Market**, a grocery chain in Canada, Mexico, and the US. I took raw transaction data and turned it into an interactive dashboard to track performance.
 
 <hr>
 
@@ -38,19 +38,19 @@ This project involved a complete business intelligence workflow using data from 
 
 ### Project Goals & Process
 
-**Goal:** The primary objective was to connect to multiple raw CSV files, build a robust relational data model, and design a dynamic dashboard to analyze transaction volumes, profit, and return rates by product brand and region.
+**Goal:** The main goal was to connect to several CSV files, build a solid data model, and create a dashboard to analyze transactions, profit, and returns by brand and region.
 
-**Process:** My process followed the entire business intelligence workflow:
-* **Connecting & Shaping Data:** I connected to a folder of CSVs containing transaction and returns data for 1997 and 1998, along with lookup tables for customers, products, stores, and regions. Using Power Query, I combined files, merged columns to create unique identifiers, and ensured all data types were accurate.
-* **Creating the Data Model:** I built a relational model, arranging the lookup tables and data tables into a clean schema. I established one-to-many relationships between the tables, ensuring filter context flowed downstream correctly from lookups to data.
-* **Adding DAX Measures:** I developed a number of DAX measures to calculate key metrics, including Total Transactions, Total Revenue, Profit Margin, Return Rate, and complex time-intelligence calculations like Year-to-Date Revenue and Revenue vs. Target.
+**Process:** I followed the standard BI workflow:
+* **Connecting & Shaping Data:** I started with a folder of CSVs with transaction and returns data. Using Power Query, I combined the files and cleaned them up to create unique IDs and fix data types.
+* **Creating the Data Model:** I built a relational model to connect the data tables with lookup tables for customers, products, and stores. This made sure the filters worked correctly.
+* **Adding DAX Measures:** I wrote several DAX measures for key metrics like Total Transactions, Total Revenue, Profit Margin, and Return Rate. I also added time-based calculations like Year-to-Date Revenue.
 
 ### Insights & Final Report
 
-The final report provides a comprehensive overview of topline performance, allowing users to drill down into specific product brands and regions to identify key business drivers.
+The final report gives a high-level view of performance. Users can also look closer at specific product brands and regions to see what drives the business.
 
 **Key features of the dashboard include:**
-* A matrix showing **Total Transactions, Profit, and Return Rates** for the top 30 product brands, with conditional formatting to highlight performance.
+* A table showing **Total Transactions, Profit, and Return Rates** for the top 30 product brands. It uses color to highlight performance.
 * KPI cards to monitor **Current Month Transactions** against the previous month's target.
-* A treemap visualizing **Total Revenue by Store Country**, allowing for drill-down into specific cities.
-* Interactive bookmarks to highlight specific insights, such as when a particular store location hits a sales milestone.
+* A treemap showing **Total Revenue by Store Country**, which lets you see details for each city.
+* Bookmarks to highlight key moments, like when a store hits a sales milestone.

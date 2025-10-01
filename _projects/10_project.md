@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adventure Wroks Sales Analysis
-description: Adventure Wroks Sales Analysis this is the GOAT for PowerBI learner offered in PL-300 Microsoft prepearion, and this is my take folloing the steps of one of the best courses EVER! cheers Chris.
+description: A Power BI dashboard for the AdventureWorks dataset, built as part of the PL-300 Microsoft exam preparation.
 img: /assets/img/r1.jpg
 importance: 10
 category: fun
@@ -20,13 +20,11 @@ images:
 </swiper-container>
 ---
 <div class="caption">
-    Screenshots from the Maven Market Power BI project, from data shaping to the final dashboard
+    Screenshots from the AdventureWorks Power BI project, from data shaping to the final dashboard.
 </div>
 
-
-This project involved analyzing the AdventureWorks dataset to uncover sales trends and key performance indicators. I designed and built a comprehensive, interactive dashboard using Microsoft Power BI to present these findings in an accessible and user-friendly way.
-
-The live, interactive report is embedded below. You can click on different charts and filters to explore the data.
+This project is an analysis of the AdventureWorks dataset. I used Microsoft Power BI to build an interactive dashboard that shows sales trends and other key metrics.
+The goal was to make the data easy to explore. You can click on the charts and filters to see the data for yourself.
 
 <hr>
 
@@ -45,9 +43,8 @@ The live, interactive report is embedded below. You can click on different chart
 
 ### Project Goals & Process
 
-[**Goal:** Briefly describe the main objective. For example: "The primary goal was to identify the top-performing products, regions, and sales channels to provide actionable insights for the marketing team."]
+**Goal:** The main goal was to find the best-selling products, regions, and sales channels. This was to give the marketing team clear insights to act on.
 
-[**Process:** Describe your steps. For example: "My process involved connecting to the SQL database, performing data cleaning and transformation in Power Query, creating a relational data model, and then developing DAX measures to calculate key metrics like Year-over-Year growth and profit margins."]
+**Process:** I connected to the SQL database, cleaned the data in Power Query, and built a data model. Then, I wrote DAX measures to calculate metrics like year-over-year growth and profit margins.
 
-[**Insights:** List a few key findings. For example: "Key insights revealed that online sales significantly outperform reseller sales in the European market, and that specific bike models are major drivers of profit."]
-
+**Insights:** I found that online sales were much higher than reseller sales in Europe. I also saw that a few specific bike models were driving most of the profit.
