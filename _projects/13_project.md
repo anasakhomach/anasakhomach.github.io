@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Smoking Gun: An Interactive Deep Dive
+title: The Smoking Gun "An Interactive Deep Dive"
 description: An interactive Streamlit application for a deep-dive analysis into Maven Fuzzy Factory's growth, uncovering the key drivers behind their success.
 img: /assets/img/pr134.png
 importance: 13
