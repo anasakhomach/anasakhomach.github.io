@@ -210,6 +210,11 @@ ninja.data = [{
           description: "An interactive Streamlit application for a deep-dive analysis into Maven Fuzzy Factory&#39;s growth, uncovering the key drivers behind their success.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
+            },},{id: "projects-sql-data-warehouse-amp-analytics",
+          title: 'SQL Data Warehouse &amp;amp; Analytics',
+          description: "A data engineering and analytics project that evolved from a local PostgreSQL warehouse to a full cloud-based platform.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{
         id: 'social-email',
         title: 'email',
