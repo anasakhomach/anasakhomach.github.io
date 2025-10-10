@@ -314,4 +314,4 @@ That's the difference between a portfolio project and professional experience. A
 
 ---
 
-*Want to see the code? Check out the [GitHub repository](hhttps://github.com/anasakhomach/data-warehouse-practice) for the complete implementation.*
+*Want to see the code? Check out the [GitHub repository](https://github.com/anasakhomach/data-warehouse-practice) for the complete implementation.*
