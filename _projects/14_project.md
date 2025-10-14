@@ -285,15 +285,19 @@ This is just the beginning. Next steps include:
 Here's where the project got really interesting. Building the warehouse was just the foundation - the real value came from what we discovered in the data. The analytics revealed some shocking business insights that completely changed how we understood the company:
 
 **The "Leaky Bucket" Problem**
-Our customer segmentation analysis uncovered a retention crisis. While we had 18,484 total customers, 80% were stuck in the low-value "New" segment with an average order value of just $614. Meanwhile, our VIP customers (only 1,619 people) had an average order value of $2,648 - more than 4 times higher.
+
+Our customer segmentation analysis uncovered a retention crisis. While we had 18,484 total customers, 80% were stuck in the low-value New segment with an average order value of just \\$614. Meanwhile, our VIP customers, only 1619 people had an average order value of \\$2648, more than 4 times higher.
 
 **Extreme Business Risk**
+
 The part-to-whole analysis revealed something alarming: 96.5% of total revenue came from a single product category - Bikes. The company's 2012 strategy to diversify into accessories and clothing had completely failed.
 
 **An Aging Customer Base**
+
 Over 67% of our most valuable VIP customers were 50 and above. The business was failing to cultivate high-value relationships with younger generations.
 
 **The Strategic Recommendation**
+
 All the data pointed to one conclusion: fix the retention problem and diversify revenue through cross-selling to existing loyal customers, not by chasing more low-value acquisitions.
 
 This wasn't just a technical exercise - it was strategic consulting backed by data. The warehouse didn't just store information; it revealed critical business risks that leadership needed to address immediately.
